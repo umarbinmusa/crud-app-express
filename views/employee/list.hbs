@@ -1,0 +1,22 @@
+<h3 align="center">Employee list</h3>
+<table border="1" width="80%" color="red" align="center">
+    <thead>
+        <tr>
+            <th>fullname</th>
+            <th>email</th>
+            <th>mobile</th>
+            <th>city</th>
+            
+        </tr>
+    </thead>
+    <tbody height="10px">
+        {{#each list}}
+        <tr>
+        <td> </td>
+        <td width=>{{Employee.email}}</td>
+        <td>{{Employee.mobile}}</td>
+        <td>{{Employee.city}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
